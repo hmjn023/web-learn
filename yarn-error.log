@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn config get registry
+
+PATH: 
+  /home/hmjn/project/personal/web/node_modules/.bin:/home/hmjn/project/personal/web/node_modules/.bin:/home/hmjn/.cargo/bin:/home/hmjn/go/bin:/home/hmjn/flutter/bin:/home/hmjn/Android/Sdk/platform-tools:/home/hmjn/.local/bin:/var/lib/snapd/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/android-sdk/platform-tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/hmjn/.local/share/JetBrains/Toolbox/scripts
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/hmjn/project/personal/web/package.json: Expected double-quoted property name in JSON at position 127
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"scripts":{
+  		"dev":"next dev"
+  	},
+  	"dependencies": {
+  		"next": "^13.5.4",
+  		"react": "^18.2.0",
+  		"react-dom": "^18.2.0",
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
