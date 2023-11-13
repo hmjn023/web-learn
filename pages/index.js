@@ -22,8 +22,24 @@ export default function HomePage() {
 					<li key={name}>{name}</li>
 				))}
 			</ul>
+			<hr />
 
 			<button onClick={handleClick}>Like ({likes})</button>
+			<hr />
+			<p>{eval('(1+1)*3/2')}</p>
+			<form>
+				<label>
+					<p>text</p>
+					<input type='text' name='text' />
+					<br />
+				</label>
+				<label>
+					<input type='radio' />
+					huga
+				</label>
+				<br />
+				<input type='submit' />
+			</form>
 		</div>
 	);
 }
